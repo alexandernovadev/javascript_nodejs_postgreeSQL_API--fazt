@@ -48,10 +48,10 @@ hasMany(
   )
 */
 
-Project.hasMany(Tasks, { foreingKey: 'projectID', sourceKey: 'id' });
+Project.hasMany(Tasks, { foreingKey: 'projectid', sourceKey: 'id' });
 
 // Una tarea pertenece a ......
-Tasks.belongsTo(Project, { foreingKey: 'projectID', sourceKey: 'id' });
+Tasks.belongsTo(Project, { foreingKey: 'projectid', sourceKey: 'id' });
 
 
 export default Project;
