@@ -1,0 +1,14 @@
+"build": "babel src --out-dir dist"  
+
+babel traduscame la carperta src, y pongala en dist
+
+
+   "start": "node dist/index.js"
+
+Comienze mi app con el archivo index.js que esta en la carpeta ...
+
+
+  "dev": "nodemon src/index.js --exec babe-node",
+
+En vez de ejecutar en index.js con NodeJs lo ejecuta von babel node
+para que entienda JavaScript Moder

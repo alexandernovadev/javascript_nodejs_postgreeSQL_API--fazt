@@ -1,0 +1,12 @@
+/* Babel puede traducir varias cosas a javascript que todo navegador
+entienda */
+
+/* Las configuraciones de babel va en un objeto json,
+
+presets, @babel/preset-env  -> ir mean that convierta javascript moderno*/
+
+{
+  "presets": [
+    "@babel/preset-env"
+  ]
+}
